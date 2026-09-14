@@ -25,11 +25,11 @@ let gbr = pcWaga * (2 / 100);
 let muluWaga = pcWaga + gbr - kinashi;
 console.log(muluWaga);
 
-function adiss(x,y) {
+function adiss(x, y) {
     console.log("arguments and parameters");
     console.log(x + y);
     console.log(x - y);
     console.log(x * y);
     console.log(x / y);
 }
-adiss(23, 12)
+adiss(23, 234)

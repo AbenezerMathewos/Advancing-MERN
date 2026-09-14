@@ -33,3 +33,12 @@ function adiss(x, y) {
     console.log(x / y);
 }
 adiss(23, 234)
+
+//Lap-top price calculator function
+
+function lapTopPrice(name, price, discount) {
+    let tax = (price * 6) / 100;
+    let tottalPrice = (price - discount) + tax;
+    console.log("Laptop price is " + tottalPrice);
+}
+lapTopPrice("Hp", 50000, 50);

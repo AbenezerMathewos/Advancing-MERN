@@ -42,3 +42,4 @@ function lapTopPrice(name, price, discount) {
     console.log("Laptop price is " + tottalPrice);
 }
 lapTopPrice("Hp", 50000, 50);
+lapTopPrice("dell", 8678, 450);

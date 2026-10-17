@@ -74,3 +74,14 @@ console.log("student "+ " passed- with the score of : " + marks[i]);
 
 }
 passOrFail([45, 67, 89, 34, 56, 78, 90, 12, 23, 44]);
+
+//while loop array
+function whileLoopArray(arr){
+    console.log(arr);
+    let i=0;
+    while(i < arr.length){
+        console.log(arr[i]+ " is SW Developer");
+        i=i+2;
+    }
+}
+whileLoopArray(["james","kelly","dan", "john","abi","abi","ela","jeddy"]);

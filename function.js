@@ -48,6 +48,9 @@ lapTopPrice("dell", 8678, 450);
 */
 
 // conditional statements exercise.
+const firstConditional=()=>{
+    
+}
 
 //arrow function
 function arrowFunction(a, v) {
@@ -63,3 +66,4 @@ const MyArrowFunction = (b, u) => {
     console.log((c) + " Here is my first arrow function")
 }
 MyArrowFunction(56, 34);
+

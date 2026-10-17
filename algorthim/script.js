@@ -1,43 +1,43 @@
 // algorthim thinking
-function add(a,b){
-    if ( isNaN(a) || isNaN(b) ){
+function add(a, b) {
+    if (isNaN(a) || isNaN(b)) {
         return "Please Provide the number only"
     };
-    var dmr = a+b;
+    var dmr = a + b;
     return dmr;
 }
-var dmir = add(89.9,9);
+var dmir = add(89.9, 9);
 console.log(dmir);
 
-function triVal(b, h){
-    if (typeof b !== "number" || typeof h !== "number"){
+function triVal(b, h) {
+    if (typeof b !== "number" || typeof h !== "number") {
         return "please insert number";
     }
-    return (b*h)/2;
+    return (b * h) / 2;
 }
-triangleValue=triVal(6,5);
+triangleValue = triVal(6, 5);
 console.log(triangleValue);
 
-function trianglewaga(bs, ht){
-    if (isNaN(bs) || isNaN(ht)){
-        return"please provide number only";
-    } else if(bs <=0 || ht <=0 ){
+function trianglewaga(bs, ht) {
+    if (isNaN(bs) || isNaN(ht)) {
+        return "please provide number only";
+    } else if (bs <= 0 || ht <= 0) {
         return "please provide positive number only";
     }
-    return (bs*ht)/2;
+    return (bs * ht) / 2;
 }
 mels = trianglewaga(4, 3);
 console.log(mels);
 
 // Minute to Second Converter
 function minuteToSecondConverter(min) {
-if(isNaN(min)){
-    return"please enter number";
-} else if (min<0) {
-    return"please insert postive number";
-} else{
-     return (min*60);
-}
+    if (isNaN(min)) {
+        return "please enter number";
+    } else if (min < 0) {
+        return "please insert postive number";
+    } else {
+        return (min * 60);
+    }
 }
 // second = minuteToSecondConverter(4);
 console.log(minuteToSecondConverter(5));
@@ -45,30 +45,31 @@ console.log(minuteToSecondConverter(-5));
 console.log(minuteToSecondConverter("h"));
 
 //Working with Decision loop
-function greeting(){
-    for(i=0; i<=7; i++){
-        console.log(i+ " Hello World");
-    }}
-    greeting();
-
-// printing elements using for loop
-function listElements(someNumbers){
-    console.log(someNumbers);
-    for(i=0; i<someNumbers.length; i++){
-        console.log("index numbers" ,i);
-        console.log("Element "+ someNumbers[i])
+function greeting() {
+    for (i = 0; i <= 7; i++) {
+        console.log(i + " Hello World");
     }
 }
-listElements([16,52,33,54,85,56,37,82,91]);
+greeting();
+
+// printing elements using for loop
+function listElements(someNumbers) {
+    console.log(someNumbers);
+    for (i = 0; i < someNumbers.length; i++) {
+        console.log("index numbers", i);
+        console.log("Element " + someNumbers[i])
+    }
+}
+listElements([16, 52, 33, 54, 85, 56, 37, 82, 91]);
 
 //pass or fall
-function passOrFail(marks){
-    for(let i=0; i<marks.length; i++){
+function passOrFail(marks) {
+    for (let i = 0; i < marks.length; i++) {
         console.log(marks[i]);
-        if (marks[i]>=50){
-console.log("student "+ " passed- with the score of : " + marks[i]);
-        } else{
-            console.log("student "+ i + " failed- with the score of : " + marks[i]);
+        if (marks[i] >= 50) {
+            console.log("student " + " passed- with the score of : " + marks[i]);
+        } else {
+            console.log("student " + i + " failed- with the score of : " + marks[i]);
         }
     }
 
@@ -76,12 +77,12 @@ console.log("student "+ " passed- with the score of : " + marks[i]);
 passOrFail([45, 67, 89, 34, 56, 78, 90, 12, 23, 44]);
 
 //while loop array
-function whileLoopArray(arr){
+function whileLoopArray(arr) {
     console.log(arr);
-    let i=0;
-    while(i < arr.length){
-        console.log(arr[i]+ " is SW Developer");
-        i=i+2;
+    let i = 0;
+    while (i < arr.length) {
+        console.log(arr[i] + " is SW Developer");
+        i = i + 2;
     }
 }
-whileLoopArray(["james","kelly","dan", "john","abi","abi","ela","jeddy"]);
+whileLoopArray(["james", "kelly", "dan", "john", "abi", "abi", "ela", "jeddy"]);

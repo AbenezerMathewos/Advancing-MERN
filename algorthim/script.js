@@ -60,3 +60,17 @@ function listElements(someNumbers){
     }
 }
 listElements([16,52,33,54,85,56,37,82,91]);
+
+//pass or fall
+function passOrFail(marks){
+    for(let i=0; i<marks.length; i++){
+        console.log(marks[i]);
+        if (marks[i]>=50){
+console.log("student "+ " passed- with the score of : " + marks[i]);
+        } else{
+            console.log("student "+ i + " failed- with the score of : " + marks[i]);
+        }
+    }
+
+}
+passOrFail([45, 67, 89, 34, 56, 78, 90, 12, 23, 44]);

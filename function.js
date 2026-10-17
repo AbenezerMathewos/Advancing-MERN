@@ -1,3 +1,4 @@
+/*
 function first() {
     console.log("welcome to js")
     var a = 3;
@@ -43,3 +44,22 @@ function lapTopPrice(name, price, discount) {
 }
 lapTopPrice("Hp", 50000, 50);
 lapTopPrice("dell", 8678, 450);
+
+*/
+
+// conditional statements exercise.
+
+//arrow function
+function arrowFunction(a, v) {
+    var a = "yihe new ";
+    var v = 23;
+    const c = a + v;
+    console.log(c);
+}
+arrowFunction(3, 6);
+
+const MyArrowFunction = (b, u) => {
+    const c = b + u;
+    console.log((c) + " Here is my first arrow function")
+}
+MyArrowFunction(56, 34);
